@@ -1,0 +1,47 @@
+@model IEnumerable<Provincias.Models.Provincia>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a class="btn btn-success" asp-action="Create">Nueva Provincia</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Nombre de Provincia
+            </th>
+            <th>
+                Extensión
+            </th>
+            <th>
+                Numero de Cantones
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(model => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.Extension)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.Numero_Cantones)
+            </td>
+            <td>
+                <a class="btn btn-dark" asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                <a class="btn btn-secondary" asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
+                <a class="btn btn-warning" asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

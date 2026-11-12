@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UNIANDES\\Sexto\\Factura\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD669BEE-B73C-4C94-A503-B2464741DF5E}|Factura.csproj|d:\\uniandes\\sexto\\factura\\views\\facturas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD669BEE-B73C-4C94-A503-B2464741DF5E}|Factura.csproj|solutionrelative:views\\facturas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD669BEE-B73C-4C94-A503-B2464741DF5E}|Factura.csproj|d:\\uniandes\\sexto\\factura\\controllers\\facturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD669BEE-B73C-4C94-A503-B2464741DF5E}|Factura.csproj|solutionrelative:controllers\\facturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNIANDES\\Sexto\\Factura\\Migrations\\20261030012328_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20261030012328_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD669BEE-B73C-4C94-A503-B2464741DF5E}|Factura.csproj|d:\\uniandes\\sexto\\factura\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD669BEE-B73C-4C94-A503-B2464741DF5E}|Factura.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD669BEE-B73C-4C94-A503-B2464741DF5E}|Factura.csproj|d:\\uniandes\\sexto\\factura\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD669BEE-B73C-4C94-A503-B2464741DF5E}|Factura.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD669BEE-B73C-4C94-A503-B2464741DF5E}|Factura.csproj|d:\\uniandes\\sexto\\factura\\factura.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BD669BEE-B73C-4C94-A503-B2464741DF5E}|Factura.csproj|solutionrelative:factura.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD669BEE-B73C-4C94-A503-B2464741DF5E}|Factura.csproj|d:\\uniandes\\sexto\\factura\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BD669BEE-B73C-4C94-A503-B2464741DF5E}|Factura.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD669BEE-B73C-4C94-A503-B2464741DF5E}|Factura.csproj|d:\\uniandes\\sexto\\factura\\models\\facturamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD669BEE-B73C-4C94-A503-B2464741DF5E}|Factura.csproj|solutionrelative:models\\facturamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD669BEE-B73C-4C94-A503-B2464741DF5E}|Factura.csproj|d:\\uniandes\\sexto\\factura\\models\\facturasdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD669BEE-B73C-4C94-A503-B2464741DF5E}|Factura.csproj|solutionrelative:models\\facturasdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\Sexto\\Factura\\Views\\Facturas\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Facturas\\Index.cshtml",
+              "ToolTip": "D:\\UNIANDES\\Sexto\\Factura\\Views\\Facturas\\Index.cshtml",
+              "RelativeToolTip": "Views\\Facturas\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-30T01:19:30.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20261030012328_inicial.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Sexto\\Factura\\Migrations\\20261030012328_inicial.cs",
+              "RelativeDocumentMoniker": "Migrations\\20261030012328_inicial.cs",
+              "ToolTip": "D:\\UNIANDES\\Sexto\\Factura\\Migrations\\20261030012328_inicial.cs",
+              "RelativeToolTip": "Migrations\\20261030012328_inicial.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T01:23:28.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\Sexto\\Factura\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\UNIANDES\\Sexto\\Factura\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB0AAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-30T01:20:16.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FacturasController.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Sexto\\Factura\\Controllers\\FacturasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FacturasController.cs",
+              "ToolTip": "D:\\UNIANDES\\Sexto\\Factura\\Controllers\\FacturasController.cs",
+              "RelativeToolTip": "Controllers\\FacturasController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T01:18:20.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\UNIANDES\\Sexto\\Factura\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\UNIANDES\\Sexto\\Factura\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-30T01:14:45.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Sexto\\Factura\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\UNIANDES\\Sexto\\Factura\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T01:13:23.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Factura",
+              "DocumentMoniker": "D:\\UNIANDES\\Sexto\\Factura\\Factura.csproj",
+              "RelativeDocumentMoniker": "Factura.csproj",
+              "ToolTip": "D:\\UNIANDES\\Sexto\\Factura\\Factura.csproj",
+              "RelativeToolTip": "Factura.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-30T01:09:36.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FacturaModel.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Sexto\\Factura\\Models\\FacturaModel.cs",
+              "RelativeDocumentMoniker": "Models\\FacturaModel.cs",
+              "ToolTip": "D:\\UNIANDES\\Sexto\\Factura\\Models\\FacturaModel.cs",
+              "RelativeToolTip": "Models\\FacturaModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T01:08:51.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FacturasDbContext.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Sexto\\Factura\\Models\\FacturasDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\FacturasDbContext.cs",
+              "ToolTip": "D:\\UNIANDES\\Sexto\\Factura\\Models\\FacturasDbContext.cs",
+              "RelativeToolTip": "Models\\FacturasDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T01:01:59.994Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

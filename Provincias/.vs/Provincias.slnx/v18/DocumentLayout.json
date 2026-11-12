@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UNIANDES\\Sexto\\Provincias\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|d:\\uniandes\\sexto\\provincias\\views\\canton\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|solutionrelative:views\\canton\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|d:\\uniandes\\sexto\\provincias\\views\\canton\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|solutionrelative:views\\canton\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|d:\\uniandes\\sexto\\provincias\\views\\canton\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|solutionrelative:views\\canton\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|d:\\uniandes\\sexto\\provincias\\controllers\\cantoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|solutionrelative:controllers\\cantoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|d:\\uniandes\\sexto\\provincias\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|d:\\uniandes\\sexto\\provincias\\controllers\\provinciascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|solutionrelative:controllers\\provinciascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|d:\\uniandes\\sexto\\provincias\\models\\provinciasdbcntext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|solutionrelative:models\\provinciasdbcntext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|d:\\uniandes\\sexto\\provincias\\models\\canton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|solutionrelative:models\\canton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|d:\\uniandes\\sexto\\provincias\\provincias.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|solutionrelative:provincias.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|d:\\uniandes\\sexto\\provincias\\models\\provincia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|solutionrelative:models\\provincia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|d:\\uniandes\\sexto\\provincias\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\Sexto\\Provincias\\Views\\Canton\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Canton\\Index.cshtml",
+              "ToolTip": "D:\\UNIANDES\\Sexto\\Provincias\\Views\\Canton\\Index.cshtml",
+              "RelativeToolTip": "Views\\Canton\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T01:26:47.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\Sexto\\Provincias\\Views\\Canton\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Canton\\Edit.cshtml",
+              "ToolTip": "D:\\UNIANDES\\Sexto\\Provincias\\Views\\Canton\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Canton\\Edit.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T01:24:44.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\Sexto\\Provincias\\Views\\Canton\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Canton\\Create.cshtml",
+              "ToolTip": "D:\\UNIANDES\\Sexto\\Provincias\\Views\\Canton\\Create.cshtml",
+              "RelativeToolTip": "Views\\Canton\\Create.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T01:15:10.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CantonController.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Sexto\\Provincias\\Controllers\\CantonController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CantonController.cs",
+              "ToolTip": "D:\\UNIANDES\\Sexto\\Provincias\\Controllers\\CantonController.cs",
+              "RelativeToolTip": "Controllers\\CantonController.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAuwGcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T00:57:42.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\Sexto\\Provincias\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\UNIANDES\\Sexto\\Provincias\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T00:50:06.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProvinciasController.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Sexto\\Provincias\\Controllers\\ProvinciasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProvinciasController.cs",
+              "ToolTip": "D:\\UNIANDES\\Sexto\\Provincias\\Controllers\\ProvinciasController.cs",
+              "RelativeToolTip": "Controllers\\ProvinciasController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA5wAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T00:49:41.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProvinciasDbCntext.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Sexto\\Provincias\\Models\\ProvinciasDbCntext.cs",
+              "RelativeDocumentMoniker": "Models\\ProvinciasDbCntext.cs",
+              "ToolTip": "D:\\UNIANDES\\Sexto\\Provincias\\Models\\ProvinciasDbCntext.cs",
+              "RelativeToolTip": "Models\\ProvinciasDbCntext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T00:18:45.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Canton.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Sexto\\Provincias\\Models\\Canton.cs",
+              "RelativeDocumentMoniker": "Models\\Canton.cs",
+              "ToolTip": "D:\\UNIANDES\\Sexto\\Provincias\\Models\\Canton.cs",
+              "RelativeToolTip": "Models\\Canton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T00:30:38.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Provincias.csproj",
+              "DocumentMoniker": "D:\\UNIANDES\\Sexto\\Provincias\\Provincias.csproj",
+              "RelativeDocumentMoniker": "Provincias.csproj",
+              "ToolTip": "D:\\UNIANDES\\Sexto\\Provincias\\Provincias.csproj",
+              "RelativeToolTip": "Provincias.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-11T00:32:55.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Provincia.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Sexto\\Provincias\\Models\\Provincia.cs",
+              "RelativeDocumentMoniker": "Models\\Provincia.cs",
+              "ToolTip": "D:\\UNIANDES\\Sexto\\Provincias\\Models\\Provincia.cs",
+              "RelativeToolTip": "Models\\Provincia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T00:27:47.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Sexto\\Provincias\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\UNIANDES\\Sexto\\Provincias\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T00:22:12.695Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

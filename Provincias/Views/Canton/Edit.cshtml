@@ -1,0 +1,51 @@
+@model Provincias.Models.Canton
+
+@{
+    ViewData["Title"] = "Editar Canton";
+}
+
+<h1>Editar Canton</h1>
+
+<h4>Canton</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Nombre" class="control-label"></label>
+                <input asp-for="Nombre" class="form-control" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Extension" class="control-label"></label>
+                <input asp-for="Extension" class="form-control" />
+                <span asp-validation-for="Extension" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Numero_Habitantes" class="control-label"></label>
+                <input asp-for="Numero_Habitantes" class="form-control" />
+                <span asp-validation-for="Numero_Habitantes" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Provincia" class="control-label"></label>
+                <select asp-for="ProvinciaId" class="form-control" 
+                    asp-items="ViewBag.Provincias">
+                    <option value="">-- Select Provincia --</option>
+                </select>             
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Guardar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Regresar a la lista</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
