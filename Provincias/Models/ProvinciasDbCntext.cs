@@ -8,6 +8,7 @@
 
         public DbSet<Provincia> Provincias { get; set; }
         public DbSet<Canton> Cantones { get; set; }
+        public DbSet<Habitante> Habitantes { get; set; }
 
     }
 }

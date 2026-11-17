@@ -1,0 +1,113 @@
+@model Provincias.Models.Habitante
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Habitante</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Nombre" class="control-label"></label>
+                <input asp-for="Nombre" class="form-control" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Apellido" class="control-label"></label>
+                <input asp-for="Apellido" class="form-control" />
+                <span asp-validation-for="Apellido" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Fecha_Nacimiento" class="control-label"></label>
+                <input asp-for="Fecha_Nacimiento" class="form-control" />
+                <span asp-validation-for="Fecha_Nacimiento" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="email" class="control-label"></label>
+                <input asp-for="email" class="form-control" />
+                <span asp-validation-for="email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Fecha_Registro" class="control-label"></label>
+                <input asp-for="Fecha_Registro" class="form-control" />
+                <span asp-validation-for="Fecha_Registro" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Edad" class="control-label"></label>
+                <input asp-for="Edad" class="form-control" />
+                <span asp-validation-for="Edad" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label  class="control-label">Provincia</label>
+                
+                <select id="provincia"  asp-items="ViewBag.Provincias" 
+                        class="form-control">
+                            <option value="">-- Select Provincia --</option>
+                </select>
+                
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CantonId" class="control-label"></label>
+                <select id="CantonId" name="CantonId" class="form-control" disabled>
+                    <option value="">-- Select Canton --</option>
+                </select>
+                 <span asp-validation-for="CantonId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts{
+    <scrript src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+
+     $(document).ready(function() {
+    $("#provincia").change(function() {
+        var provinciaId = $(this).val();
+        
+        $("#CantonId")
+            .empty()
+            .append('<option value="">-- Seleccione un canton --</option>')
+            .prop('disabled', false);
+
+        if (provinciaId == "") {
+            alert("Seleccione una provincia");
+            return;
+        }
+
+        $.get('@Url.Action("GetCantones", "Habitante")', { provinciaId: provinciaId }, function(lista_cantones) {
+            $.each(lista_cantones, function(i, canton) {
+                $("#CantonId").append(
+                    $('<option>', { value: canton.id, html: canton.nombre })
+                );
+            });
+        });
+    });
+});
+
+    </script>
+      
+    
+
+}
