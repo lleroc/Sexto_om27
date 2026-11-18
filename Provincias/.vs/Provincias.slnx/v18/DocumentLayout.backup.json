@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\UNIANDES\\Sexto\\Provincias\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|d:\\uniandes\\sexto\\provincias\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|d:\\uniandes\\sexto\\provincias\\controllers\\habitantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|solutionrelative:controllers\\habitantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|d:\\uniandes\\sexto\\provincias\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|d:\\uniandes\\sexto\\provincias\\views\\habitante\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|solutionrelative:views\\habitante\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|d:\\uniandes\\sexto\\provincias\\views\\habitante\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -13,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|d:\\uniandes\\sexto\\provincias\\models\\habitante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|solutionrelative:models\\habitante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|d:\\uniandes\\sexto\\provincias\\views\\habitante\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{79F49F8D-AB35-62A6-B718-5EE0B61FE1FB}|Provincias.csproj|solutionrelative:views\\habitante\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +42,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\UNIANDES\\Sexto\\Provincias\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "D:\\UNIANDES\\Sexto\\Provincias\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-11-17T23:51:05.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\UNIANDES\\Sexto\\Provincias\\Views\\Habitante\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Habitante\\Index.cshtml",
@@ -42,12 +63,11 @@
               "RelativeToolTip": "Views\\Habitante\\Index.cshtml",
               "ViewState": "AgIAAC0AAAAAAAAAAAAAADYAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-13T01:27:08.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-13T01:27:08.356Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Habitante.cs",
               "DocumentMoniker": "D:\\UNIANDES\\Sexto\\Provincias\\Models\\Habitante.cs",
               "RelativeDocumentMoniker": "Models\\Habitante.cs",
@@ -55,20 +75,32 @@
               "RelativeToolTip": "Models\\Habitante.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAA1wBAAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-13T01:25:44.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-13T01:25:44.508Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HabitanteController.cs",
               "DocumentMoniker": "D:\\UNIANDES\\Sexto\\Provincias\\Controllers\\HabitanteController.cs",
               "RelativeDocumentMoniker": "Controllers\\HabitanteController.cs",
               "ToolTip": "D:\\UNIANDES\\Sexto\\Provincias\\Controllers\\HabitanteController.cs",
               "RelativeToolTip": "Controllers\\HabitanteController.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAqwBIAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAwC0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-13T00:52:28.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\Sexto\\Provincias\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\UNIANDES\\Sexto\\Provincias\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAACoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-17T23:52:10.384Z",
               "EditorCaption": ""
             },
             {
@@ -79,7 +111,7 @@
               "RelativeDocumentMoniker": "Views\\Habitante\\Create.cshtml",
               "ToolTip": "D:\\UNIANDES\\Sexto\\Provincias\\Views\\Habitante\\Create.cshtml",
               "RelativeToolTip": "Views\\Habitante\\Create.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAcwFMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-11-13T00:51:52.634Z",
               "EditorCaption": ""

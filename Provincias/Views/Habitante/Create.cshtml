@@ -77,37 +77,3 @@
     <a asp-action="Index">Back to List</a>
 </div>
 
-@section Scripts{
-    <scrript src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-    <script>
-
-     $(document).ready(function() {
-    $("#provincia").change(function() {
-        var provinciaId = $(this).val();
-        
-        $("#CantonId")
-            .empty()
-            .append('<option value="">-- Seleccione un canton --</option>')
-            .prop('disabled', false);
-
-        if (provinciaId == "") {
-            alert("Seleccione una provincia");
-            return;
-        }
-
-        $.get('@Url.Action("GetCantones", "Habitante")', { provinciaId: provinciaId }, function(lista_cantones) {
-            $.each(lista_cantones, function(i, canton) {
-                $("#CantonId").append(
-                    $('<option>', { value: canton.id, html: canton.nombre })
-                );
-            });
-        });
-    });
-});
-
-    </script>
-      
-    
-
-}
