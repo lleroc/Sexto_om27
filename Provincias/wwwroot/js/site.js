@@ -5,7 +5,7 @@
 
 
      $(document).ready(function() {
-    $("#provincia").change(function() {
+        $("#provincia").change(function() {
         var provinciaId = $(this).val();
         
         $("#CantonId")
@@ -18,7 +18,7 @@
             return;
         }
 
-        $.get('~/Controllers/Habitante', { provinciaId: provinciaId }, function(lista_cantones) {
+        $.get('/Habitante/GetCantones', { provinciaId: provinciaId }, function(lista_cantones) {
             $.each(lista_cantones, function(i, canton) {
                 $("#CantonId").append(
                     $('<option>', { value: canton.id, html: canton.nombre })
@@ -26,4 +26,38 @@
             });
         });
     });
-});
+
+
+         $("#Fecha_Nacimiento").on("change input",function () {
+             const fechaNacimiento = $(this).val();
+             if (!fechaNacimiento) {
+                 $("#Edad").val("");
+                 return;
+             }
+
+             const [anio, mes, dia] = fechaNacimiento.split("-").map(Number);
+             const hoy = new Date();
+             let edad = hoy.getFullYear() - anio;
+             if (hoy.getMonth() + 1 < mes || (hoy.getMonth() + 1 === mes && hoy.getDate() < dia)) {
+                 edad--;
+             }
+             $("#Edad").val(edad);
+         })
+
+         $("#Fecha_Nacimiento").trigger("change");
+
+
+         
+     });
+
+var eliminar = (id) => { 
+
+
+
+    $.get('/Habitante/Eliminar', { id: id }, function (unHabitante) {
+
+        
+        
+    });
+
+}

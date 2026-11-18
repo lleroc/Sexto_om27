@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Provincias.Models;
+using Provincias.Models.ViewModel;
 
 public class HabitanteController : Controller
 {
@@ -84,13 +85,11 @@ public class HabitanteController : Controller
         {
             return NotFound();
         }
+        ViewBag.Provincias = new SelectList(
+          _context.Provincias.OrderBy(p => p.Nombre), "Id", "Nombre");
         return View(habitante);
     }
-
-    // POST: HABITANTES/Edit/5
-    // To protect from overposting attacks, enable the specific properties you want to bind to.
-    // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-    [HttpPost]
+    [HttpPost]  
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Edit(int? id, [Bind("Id,Nombre,Apellido,Fecha_Nacimiento,email,Fecha_Registro,Edad,CantonId,Canton")] Habitante habitante)
     {
@@ -119,25 +118,51 @@ public class HabitanteController : Controller
             }
             return RedirectToAction(nameof(Index));
         }
+        ViewBag.Provincias = new SelectList(
+         _context.Provincias.OrderBy(p => p.Nombre), "Id", "Nombre");
         return View(habitante);
+    }
+
+
+    public IActionResult Eliminar(int id) {
+
+        var habitante = from h in _context.Habitantes
+                        join c in _context.Cantones on h.CantonId equals c.Id
+                        join p in _context.Provincias on c.ProvinciaId equals p.Id
+                        where h.Id == id
+                        select new Habitante_Completo
+                        {
+                            HabitanteId = h.Id,
+                            Nombre = h.Nombre,
+                            Apellido = h.Apellido,
+                            Fecha_Nacimiento = h.Fecha_Nacimiento,
+                            email = h.email,
+                            Fecha_Registro = h.Fecha_Registro,
+
+                            CantonId = h.CantonId,
+                            Nombre_Canton = c.Nombre,
+                            ProvinciaId = c.ProvinciaId,
+                            Nombre_Provincia = p.Nombre
+                        };
+        return Json(habitante.FirstOrDefault());
     }
 
     // GET: HABITANTES/Delete/5
     public async Task<IActionResult> Delete(int? id)
     {
-        if (id == null)
-        {
-            return NotFound();
-        }
+       return View();
+    }
 
-        var habitante = await _context.Habitantes
-            .FirstOrDefaultAsync(m => m.Id == id);
-        if (habitante == null)
+    public int calcularedad(DateTime fecha)
+    {
+        var fechaNacimiento = fecha;
+        var fechaActual = DateTime.Now;
+        var edad = fechaActual.Year - fechaNacimiento.Year;
+        if (fechaNacimiento > fechaActual.AddYears(-edad))
         {
-            return NotFound();
+            edad--;
         }
-
-        return View(habitante);
+        return edad;
     }
 
     // POST: HABITANTES/Delete/5
@@ -146,6 +171,7 @@ public class HabitanteController : Controller
     public async Task<IActionResult> DeleteConfirmed(int? id)
     {
         var habitante = await _context.Habitantes.FindAsync(id);
+
         if (habitante != null)
         {
             _context.Habitantes.Remove(habitante);

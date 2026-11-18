@@ -26,28 +26,24 @@
             </div>
 
             <div class="form-group">
-                <label asp-for="Fecha_Nacimiento" class="control-label"></label>
-                <input asp-for="Fecha_Nacimiento" class="form-control" />
+                <label  asp-for="Fecha_Nacimiento" class="control-label"></label>
+                <input id="Fecha_Nacimiento" asp-for="Fecha_Nacimiento" class="form-control" />
                 <span asp-validation-for="Fecha_Nacimiento" class="text-danger"></span>
             </div>
-
+            <div class="form-group">
+                <label asp-for="Edad" class="control-label"></label>
+                <input id="Edad" asp-for="Edad" class="form-control" readonly />
+                <span asp-validation-for="Edad" class="text-danger"></span>
+            </div>
             <div class="form-group">
                 <label asp-for="email" class="control-label"></label>
                 <input asp-for="email" class="form-control" />
                 <span asp-validation-for="email" class="text-danger"></span>
             </div>
 
-            <div class="form-group">
-                <label asp-for="Fecha_Registro" class="control-label"></label>
-                <input asp-for="Fecha_Registro" class="form-control" />
-                <span asp-validation-for="Fecha_Registro" class="text-danger"></span>
-            </div>
+         
 
-            <div class="form-group">
-                <label asp-for="Edad" class="control-label"></label>
-                <input asp-for="Edad" class="form-control" />
-                <span asp-validation-for="Edad" class="text-danger"></span>
-            </div>
+           
 
             <div class="form-group">
                 <label  class="control-label">Provincia</label>

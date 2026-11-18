@@ -25,7 +25,7 @@ namespace Provincias.Models
         public DateTime Fecha_Registro { get; set; } = DateTime.Now;
 
         [NotMapped]
-        public int Edad => DateTime.Now.Year - Fecha_Nacimiento.Year;
+        public int Edad { get; set; }
 
 
         //relacion con la tabla canton
