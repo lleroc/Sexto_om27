@@ -248,4 +248,5 @@ D:\UNIANDES\Sexto\Provincias\bin\Debug\net10.0\runtimes\win-x64\native\msalrunti
 D:\UNIANDES\Sexto\Provincias\bin\Debug\net10.0\runtimes\win-x86\native\msalruntime_x86.dll
 D:\UNIANDES\Sexto\Provincias\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Security.Cryptography.Pkcs.dll
 D:\UNIANDES\Sexto\Provincias\obj\Debug\net10.0\Provincias.sourcelink.json
-D:\UNIANDES\Sexto\Provincias\obj\Debug\net10.0\compressed\wn0injz0vk-{0}-eycuadwki9-eycuadwki9.gz
+D:\UNIANDES\Sexto\Provincias\obj\Debug\net10.0\compressed\wn0injz0vk-{0}-07hf7rxwn0-07hf7rxwn0.gz
+D:\UNIANDES\Sexto\Provincias\obj\Debug\net10.0\compressed\6ny85mp93t-{0}-0g2868ngka-0g2868ngka.gz

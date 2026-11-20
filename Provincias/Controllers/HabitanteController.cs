@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Provincias.Models;
 using Provincias.Models.ViewModel;
+using System.Net;
 
 public class HabitanteController : Controller
 {
@@ -18,6 +19,12 @@ public class HabitanteController : Controller
     public async Task<IActionResult> Index()    
     {
         return View(await _context.Habitantes.Include(c => c.Canton).ToListAsync());
+    }
+
+    public IActionResult todos()
+    {
+        return Json(_context.Habitantes.Include(c => c.Canton).ToList());
+               
     }
 
     // GET: HABITANTES/Details/5
@@ -167,7 +174,7 @@ public class HabitanteController : Controller
 
     // POST: HABITANTES/Delete/5
     [HttpPost, ActionName("Delete")]
-    [ValidateAntiForgeryToken]
+    //[ValidateAntiForgeryToken]
     public async Task<IActionResult> DeleteConfirmed(int? id)
     {
         var habitante = await _context.Habitantes.FindAsync(id);
@@ -178,7 +185,7 @@ public class HabitanteController : Controller
         }
 
         await _context.SaveChangesAsync();
-        return RedirectToAction(nameof(Index));
+        return Json(HttpStatusCode.OK);
     }
 
     private bool HabitanteExists(int? id)

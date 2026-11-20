@@ -51,13 +51,23 @@
      });
 
 var eliminar = (id) => { 
-
-
-
-    $.get('/Habitante/Eliminar', { id: id }, function (unHabitante) {
-
-        
-        
+    var habitante = new Clase_Habitantes();
+    Swal.fire({
+        title: "Esta seguro de eliminar el registro???",
+        text: "Esta a punto de eliminar un habitante!!!!",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonColor: "#d33",
+        cancelButtonColor: "#3085d6",
+        confirmButtonText: "Eliminar!"
+    }).then((result) => {
+        if (result.isConfirmed) {
+            habitante.eliminar(id);
+        }
     });
+}
 
+var todos = () => {
+    var habitante = new Clase_Habitantes();
+    habitante.todos()
 }
